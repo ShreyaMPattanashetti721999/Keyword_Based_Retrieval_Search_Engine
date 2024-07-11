@@ -1,0 +1,14 @@
+keyword-based-retrieval-search-engine/
+│
+├── data/
+│   └── wiki-articles.json
+│
+├── src/
+│   ├── preprocess_and_index.py
+│   ├── search.py
+│   ├── clustering.py
+│   ├── vectorization.py
+│   ├── utils.py
+│
+├── requirements.txt
+└── README.md
