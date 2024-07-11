@@ -1,5 +1,6 @@
 numpy
-scikit-learn
 pandas
 nltk
+scikit-learn
+jupyter
 matplotlib
