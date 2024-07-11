@@ -1,14 +1,26 @@
-keyword-based-retrieval-search-engine/
+search-engine/
 │
 ├── data/
-│   └── wiki-articles.json
+│   ├── wiki-articles-small.json       # Dataset containing Wikipedia articles
+│
+├── notebooks/
+│   ├── BM25_Comparison_Search_Engine.ipynb   # Jupyter notebook for BM25 model comparison
+│   ├── VSM_Search_Engine.ipynb               # Jupyter notebook for Vector Space Model implementation
 │
 ├── src/
-│   ├── preprocess_and_index.py
-│   ├── search.py
-│   ├── clustering.py
-│   ├── vectorization.py
-│   ├── utils.py
+│   ├── preprocessing.py              # Python script for data preprocessing functions
+│   ├── vectorization.py              # Python script for text vectorization
+│   ├── clustering.py                 # Python script for K-Means clustering implementation
 │
-├── requirements.txt
-└── README.md
+├── results/
+│   ├── figures/                      # Directory containing generated figures and plots
+│   ├── logs/                         # Log files for tracking experiments
+│
+├── docs/
+│   ├── Project_Report.pdf            # Detailed project report
+│   ├── Presentation.pptx             # Presentation slides for project overview
+│
+├── README.md                         # Project overview and setup instructions
+├── requirements.txt                  # List of dependencies to install
+└── LICENSE                           # License file
+
